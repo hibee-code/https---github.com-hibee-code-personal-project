@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+header{
+    background-color: yellow;
+    padding:px;  
+    padding: 7px; 
+}
+.header{
+    display: flex;
+}
+.header li{
+    list-style: none;
+}
+a{
+color: black;
+text-decoration: none;
+padding: 5px;
+}
+.two{
+    color: blue;
+}
+.mind{
+    margin-top: 20px;
+    text-align: center;
+    font-family: sans-serif;
+}
+p{
+    margin-top: 10px;
+    /* font-size:20px; */
+}
+.list{
+    margin-top: 20px;
+    margin-left:10%; 
+}
+#img{
+    width: 80%;
+    margin: auto;
+}
+.img1{
+    width: 100%;
+    margin-top: 20px;
+}
+.trau{
+    margin-top: 20px;
+}
+#img2{
+    width: 80%;
+    margin: auto;
+}
+.img2{
+    width: 100%;
+    margin-top: 20px;
+    height: 800px;
+}
+.reso{
+    width:80% ;
+    margin: auto;
+    margin-top: 20px;
+    color:blue; 
+}
+.Hypo{
+    width: 80%;
+    margin: auto;
+    color:blue; 
+}
+h1{
+    text-shadow:2px 2px 8px #000222;
+}
+h2{
+    margin-top: 20px;
+}
+.trau{
+    width: 80%;
+    margin: auto; 
+    color:blue;  
+}
+.last{
+    width: 80%;
+    margin: auto;
+    color:blue; 
+}
+div h2{
+    margin-bottom: 10px;
+}
+footer{
+    background-color: black;
+    color: orange;
+    margin-top: 20px;
+    
+
+}
+.foot{
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    justify-content: center;
+}
+.foot ul li{
+    list-style: none;
+    color: white;
+}
+form{
+    margin-top: 20px;
+}
+div ul li{
+   padding: 5px; 
+}
+form input{
+    padding:10px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 10px;
+}
+form button{
+    background-color: orange;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: -13px;
+}
+
+

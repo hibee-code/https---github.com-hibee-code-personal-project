@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 2;
+    background-color: #f4f4f4;
+}
+.container{
+    width: 80%;
+    margin: auto; 
+    
+}
+.container0{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+header{
+    background: #35424a;
+    color: white;  
+    border-bottom: 2px solid red;
+}
+ul{
+    display: flex;   
+}
+img{
+    width: 20%;
+    height: 20%;
+}
+li{
+    list-style: none;
+}
+a{
+    color: white;
+    padding: 30px;
+    text-decoration: none;
+}
+.rove{color: red;
+    font-weight: bold;
+}
+h1 .Acme{
+    color: red;
+}
+#brand{
+    background-image: url('back.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: 50%;
+    height: 400px;
+}
+.container1{
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+}
+h1{
+    font-size: 40px;
+}
+.container .cont{
+    width: 80%;
+    
+}
+#form-bar{
+    background-color: #35424a;
+    padding: 10px;
+}
+.container3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+form input{
+    padding:4px;
+    height: 30px;
+    width: 250px;
+}
+button{
+    color: white;
+    background-color: red;
+    height: 30px;
+    width: 80px;
+}
+.container2{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    gap: 5px;
+    justify-content: center;    
+}
+.box{
+    text-align: center;
+}
+.container2, p{
+    margin-bottom: 10px;
+}
+#foot {
+    background-color: orangered;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+}
+@media screen and (min-width:576px){
+    .container2{
+        grid-template-columns: 250px;
+    }
+    .container3 {
+        padding: 20px;
+        flex-wrap: wrap;
+    }
+    h1{
+        font-size: 20px;
+    } 
+}
+@media screen and (max-width: 680px) {
+    .container0{
+        flex-direction: column;
+    }
+    .container2{
+        grid-template-columns: 250px;
+    }
+    .container3 {
+        padding: 20px;
+        flex-wrap: wrap; 
+    }
+      
+}
